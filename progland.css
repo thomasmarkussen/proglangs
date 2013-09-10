@@ -1,0 +1,16 @@
+
+body{
+background-color:#00FFFF;
+}
+ul.noliststyletype {
+list-style-type: none;}
+li.red
+{color: red; }
+li.blue
+{color: blue;}
+li.green
+{color: green;}
+li.yellow
+{color: yellow;}
+li.grey
+{color: grey;}

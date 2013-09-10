@@ -1,0 +1,63 @@
+﻿<html>
+<head>
+<link rel="stylesheet" href="progland.css" "type=text/css" media="all" />
+</head>
+<body>
+<center>
+<ul class="noliststyletype"> 
+<li class="red">ActionScript</li>
+<li class="red">AppleScript</li>
+<li class="red">Asp</li>
+<li class="red">BASIC</li>
+<li class="blue">C</li>
+<li class="blue">C++</li>
+<li class="blue">Clojure</li>
+<li class="blue">COBOL</li>
+<li class="blue">ColdFusion</li>
+<li class="green">Erlang</li>
+<li class="green">Fortran</li>
+<li class="green">Groovy</li>
+<li class="green">Haskell</li>
+<li class="green">Java</li>
+<li class="yellow">JavaScript</li>
+<li class="yellow">Lisp</li>
+<li class="yellow">Perl</li>
+<li class="yellow">PHP</li>
+<li class="yellow">Python</li>
+<li class="yellow">Ruby</li>
+<li class="grey">Scala</li>
+<li class="grey">Scheme</li>
+</ul> 
+<form>
+		<label for="proglangs">Velg:</label>
+		<select name="select-pl" id="proglangs" onChange="printToOutputBox(this)">
+		<option value="..." >	</option>
+		<option value="asp">ActionScript</option>
+		<option value="asp">AppleScript</option>
+		<option value="asp">Asp</option>
+		<option value="basic">BASIC</option>
+		<option value="c">C</option>
+		<option value="cplusspluss">C++</option>
+		<option value="cplusspluss">Clojure</option>
+		<option value="cplusspluss">COBOL</option>
+		<option value="cf">ColdFusion</option>
+		<option value="er">Erlang</option>
+		<option value="ft">Fortran</option>
+		<option value="gry">Groovy</option>
+		<option value="hk">Haskell</option>
+		<option value="jv">Java</option>
+		<option value="jvs">JavaScript</option>
+		<option value="lisp">Lisp</option>
+		<option value="perl">Perl</option>
+		<option value="phy">Python</option>
+		<option value="ruby">Ruby</option>
+		<option value="scala">Scala</option>
+		<option value="She">Scheme</option>
+		</select>
+
+</form>
+<span id="outputbox">Intet programmeringsspråk er valgt. Velg et programmeringsspråk!</span>
+<script src="proglangs.js"></script>
+</center>
+</body>
+</html>
